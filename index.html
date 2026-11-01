@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmFresh - Farm-to-Consumer Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-seedling"></i>
+                <span>FarmFresh</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#marketplace" class="nav-link">Marketplace</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-auth">
+                <button class="btn-secondary" id="login-btn">Login</button>
+                <button class="btn-primary" id="signup-btn">Sign Up</button>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Fresh from <span class="highlight">Farm</span> to Your <span class="highlight">Table</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Connect directly with local farmers and get the freshest, highest-quality produce delivered to your doorstep. 
+                    Support sustainable agriculture while enjoying nature's finest offerings.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-primary btn-large" id="shop-now-btn">
+                        <i class="fas fa-shopping-basket"></i>
+                        Shop Fresh Produce
+                    </button>
+                    <button class="btn-outline btn-large" id="learn-more-btn">
+                        <i class="fas fa-info-circle"></i>
+                        Learn More
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Local Farms</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">10K+</span>
+                        <span class="stat-label">Happy Customers</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">24h</span>
+                        <span class="stat-label">Fresh Delivery</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Organic Apples">
+                    </div>
+                    <div class="card-content">
+                        <h3>Organic Apples</h3>
+                        <p>From Green Valley Farm</p>
+                        <span class="price">$4.99/lb</span>
+                    </div>
+                </div>
+                <div class="hero-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1445282768818-728615cc910a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Fresh Carrots">
+                    </div>
+                    <div class="card-content">
+                        <h3>Fresh Carrots</h3>
+                        <p>From Meadow Ridge Farm</p>
+                        <span class="price">$2.49/lb</span>
+                    </div>
+                </div>
+                <div class="hero-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Mixed Greens">
+                    </div>
+                    <div class="card-content">
+                        <h3>Mixed Greens</h3>
+                        <p>From Sunrise Farm</p>
+                        <span class="price">$3.99/bunch</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose FarmFresh?</h2>
+                <p>We're revolutionizing how you connect with local agriculture</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Direct from Farm</h3>
+                    <p>Skip the middleman. Get your produce directly from local farmers, ensuring maximum freshness and supporting local agriculture.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>100% Organic</h3>
+                    <p>All our farmers follow sustainable, organic practices. No pesticides, no GMOs, just pure, natural goodness.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Fast Delivery</h3>
+                    <p>From harvest to your doorstep in 24 hours or less. Experience the taste of truly fresh produce.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Community Support</h3>
+                    <p>Every purchase supports local farmers and sustainable agriculture. Build a stronger community together.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Authentication Modal -->
+    <div id="auth-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="close-modal">&times;</span>
+            <div class="auth-container">
+                <div class="auth-tabs">
+                    <button class="auth-tab active" data-tab="login">Login</button>
+                    <button class="auth-tab" data-tab="signup">Sign Up</button>
+                </div>
+                
+                <div id="login-form" class="auth-form active">
+                    <div class="form-header">
+                        <h3>Welcome Back</h3>
+                        <p>Sign in to your account</p>
+                    </div>
+                    <form id="loginForm">
+                        <div class="form-group">
+                            <label for="login-email">Email</label>
+                            <input type="email" id="login-email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="login-password">Password</label>
+                            <input type="password" id="login-password" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="radio-label">
+                                <input type="radio" name="user-type" value="consumer" checked>
+                                <span class="radio-custom"></span>
+                                Consumer
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="user-type" value="farmer">
+                                <span class="radio-custom"></span>
+                                Farmer
+                            </label>
+                        </div>
+                        <button type="submit" class="btn-primary btn-full">Sign In</button>
+                    </form>
+                </div>
+                
+                <div id="signup-form" class="auth-form">
+                    <div class="form-header">
+                        <h3>Join FarmFresh</h3>
+                        <p>Create your account to get started</p>
+                    </div>
+                    <form id="signupForm">
+                        <div class="form-group">
+                            <label for="signup-name">Full Name</label>
+                            <input type="text" id="signup-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="signup-email">Email</label>
+                            <input type="email" id="signup-email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="signup-password">Password</label>
+                            <input type="password" id="signup-password" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="radio-label">
+                                <input type="radio" name="signup-user-type" value="consumer" checked>
+                                <span class="radio-custom"></span>
+                                Consumer
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="signup-user-type" value="farmer">
+                                <span class="radio-custom"></span>
+                                Farmer
+                            </label>
+                        </div>
+                        <button type="submit" class="btn-primary btn-full">Create Account</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dashboard Modal -->
+    <div id="dashboard-modal" class="modal">
+        <div class="modal-content dashboard-content">
+            <span class="close" id="close-dashboard">&times;</span>
+            <div id="dashboard-container">
+                <!-- Dashboard content will be dynamically loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
